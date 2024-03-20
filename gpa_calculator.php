@@ -1,31 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
-<link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css">
     <title>GPA Calculator</title>
 </head>
 
 <body class="container pad2">
-
-
-<div class="wrapper">
+    <div class="wrapper">
       <div class="heading">
         <h2>GPA Calculator</h2>
         <img src="flower.png" alt="flower icon"/>
       </div>
 
-<div class="form-wrapper">
-    <form method="post" action="">
-        <label for="num_courses">Number of Courses:</label>
-        <input type="number" name="num_courses" id="num_courses" min="1" required><br>
-        <div id="course_fields"></div>
-        <input type="submit" name="calculate" value="Calculate GPA">
-    </form>
-</div>
-
+      <div class="form-wrapper">
+        <form method="post" action="">
+          <label for="num_courses">Number of Courses:</label>
+          <input type="number" name="num_courses" id="num_courses" min="1" required><br>
+          <div id="course_fields"></div>
+          <input type="submit" name="calculate" value="Calculate GPA">
+        </form>
+      </div>
+    </div>
 </body>
+</html>
 
 <script>
     document.getElementById('num_courses').addEventListener('input', function(){
@@ -127,7 +126,7 @@ function calculateGrade($score){
             case 'E':
                 return 0.5;
             default:
-                return 0.0; // F
+                return 0.0;
         }
     }
 }
