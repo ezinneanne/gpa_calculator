@@ -10,6 +10,9 @@ Each Group is to submit their work with their PC to demonstrate their work to th
 ## Group 1
 Design and develop a simple GPA calculator.
 This should have a login feature.
+
+![]()
+
 The login feature is a student’s registration number
 A student with no account should be able to register with his/her firstname, lastname, registration number, department and level.
 The system should be able to accept scores and grade point. This it will use to compute the GPA

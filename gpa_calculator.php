@@ -17,7 +17,14 @@
       <div class="form-wrapper">
         <form method="post" action="">
           <label for="num_courses">Number of Courses:</label>
-          <input type="number" name="num_courses" id="num_courses" min="1" required><br>
+          <input type="number" name="num_courses" id="num_courses" min="1" required style="padding: 12px 20px;
+margin: 8px 0;
+display: inline-block;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+background-color: #f8fffd;
+color: #01a082;"><br>
           <div id="course_fields"></div>
           <input type="submit" name="calculate" value="Calculate GPA">
         </form>
@@ -37,7 +44,14 @@
             <label for="course_name">Course Name:</label>
             <input type="text" name="course_name[]" required><br>
             <label for="credit_units">Credit Units:</label>
-            <input type="number" name="credit_units[]" min="1" required><br>
+            <input type="number" name="credit_units[]" min="1" required style="padding: 12px 20px;
+margin: 8px 0;
+display: inline-block;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+background-color: #f8fffd;
+color: #01a082;"><br>
             <label for="scores">Score:</label>
             <input type="text" name="scores[]" required><br><br>
         `;
