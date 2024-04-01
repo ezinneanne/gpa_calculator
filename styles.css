@@ -35,7 +35,7 @@ body {
   color: #01a082;
 }
 
-input[type=text] {
+input[type=text], input[type=number] {
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
